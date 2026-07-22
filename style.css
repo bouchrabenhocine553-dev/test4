@@ -1,73 +1,156 @@
 body{
+
     margin:0;
+
+    /* ✅ Fond clair conforme au sujet. */
+
     background-color:#f0f4f8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+    /* ✅ Police Verdana conforme au devoir. */
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 header{
-    background-color: #3498db;
-    color: white;
-    text-align: center;
-    padding: 40px;
+
+    /* ✅ Bonne couleur pour le header. */
+
+    background-color:#3498db;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
 }
+
 h1{
-    font-family: Arial,, sans-serif;
-    font-weight: 900;
-    
-} 
+
+    /* ⚠ Petite erreur de syntaxe :
+       Arial,, contient deux virgules. */
+
+    font-family:Arial, sans-serif;
+
+    font-weight:900;
+
+    /* ✅ Le titre est bien mis en valeur. */
+}
+
 main{
+
     width:95%;
-    margin: 40px;
+
+    margin:40px;
 }
+
 .article{
-    background-color: white;
-    border-radius: 1%;
-    box-shadow: 0 1px 3px gray;
-    padding: 15px;
-   margin-bottom: 16px;
 
+    /* ✅ Fond blanc conforme au sujet. */
+
+    background-color:white;
+
+    /* ⚠ border-radius:1% fonctionne,
+       mais il aurait été préférable d'utiliser 10px comme demandé. */
+
+    border-radius:1%;
+
+    /* ✅ Ombre présente. */
+
+    box-shadow:0 1px 3px gray;
+
+    padding:15px;
+
+    margin-bottom:16px;
 }
-
-
 
 h2{
-    color: #2c3e50;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    letter-spacing: 2PX;
-    font-weight: 900px;
-     font-size: 32px;
 
+    color:#2c3e50;
+
+    /* ✅ Police différente pour les titres. */
+
+    font-family:Arial, sans-serif;
+
+    text-align:center;
+
+    /* ✅ Letter-spacing présent. */
+
+    letter-spacing:2px;
+
+    /* ⚠ font-weight:900px est incorrect.
+       font-weight s'écrit sans unité :
+       font-weight:900; */
+
+    font-weight:900px;
+
+    font-size:32px;
 }
+
 .info{
-    color: #666;
-    font-style: italic;
 
+    color:#666;
+
+    font-style:italic;
+
+    /* ✅ Auteur et date sont bien différenciés. */
 }
+
 p{
-    text-align: justify;
-    line-height: 1,8;
-    letter-spacing: 1px;
-     word-spacing: 10px;
-    
-}
-footer{
-    background-color:#3498db;
-    color:white;
-    text-align: center;
-    padding: 30px;
-}
-footer p {
-    text-align: center;
 
+    /* ✅ Texte justifié. */
+
+    text-align:justify;
+
+    /* ❌ Petite erreur :
+       line-height:1,8 doit être écrit avec un point :
+       line-height:1.8 */
+
+    line-height:1,8;
+
+    /* ✅ Letter-spacing présent. */
+
+    letter-spacing:1px;
+
+    /* ✅ Word-spacing présent. */
+
+    word-spacing:10px;
 }
+
+footer{
+
+    /* ✅ Footer conforme. */
+
+    background-color:#3498db;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+}
+
+footer p{
+
+    text-align:center;
+}
+
 .underline{
-    text-decoration: underline;
+
+    /* ✅ Texte souligné correctement. */
+
+    text-decoration:underline;
 }
+
 .line{
-    text-decoration: line-through;
+
+    /* ✅ Texte barré correctement. */
+
+    text-decoration:line-through;
 }
+
 .big{
 
- font-weight: 950;
+    /* ✅ Texte en gras. */
+
+    font-weight:950;
 }
